@@ -55,7 +55,7 @@ ID column was removed during preprocessing.
 ## 4. Exploratory Data Analysis
 
 ### **4.1 Stage Distribution**
-📌 *Insert Image:* `stage_histogram.png`  
+![Stage Distribution](Images/stage_histogram.png)  
 Key notes:
 - Imbalanced distribution  
 - Stages 2 and 3 dominate  
@@ -64,7 +64,8 @@ Key notes:
 ---
 
 ### **4.2 Correlation Heatmap**
-📌 *Insert Image:* `correlation_heatmap.png`  
+![Correlation Heatmap](Images/correlation_heatmap.png)
+
 Findings:
 - **Albumin**: strong negative correlation with Stage  
 - **Bilirubin**, **Copper**, **Prothrombin**: positive correlation  
@@ -73,7 +74,7 @@ Findings:
 ---
 
 ### **4.3 Albumin vs Stage**
-📌 *Insert Image:* `albumin_vs_stage.png`  
+![Albumin vs Stage](Images/albumin_vs_stage.png)  
 Interpretation:
 - Clear downward trend  
 - Lower albumin → higher disease severity  
@@ -94,7 +95,7 @@ Interpretation:
 ---
 
 ### **5.2 Baseline Training History**
-📌 *Insert Image:* `baseline_history.png`  
+![Baseline Model Training History](Images/baseline_history.png)
 Insights:
 - Training accuracy increases  
 - Validation accuracy stagnates (~33%)  
@@ -120,7 +121,8 @@ Validation accuracy improved to **~44%**.
 ---
 
 ### **6.1 Tuned Training History**
-📌 *Insert Image:* `tuned_history.png`  
+![Tuned Model Training History](Images/tuned_history.png) 
+
 Observations:
 - Better generalization  
 - Smoother training/validation curves  
@@ -131,7 +133,7 @@ Observations:
 ## 7. Final Model Evaluation
 
 ### **7.1 Confusion Matrix (Tuned Model)**
-📌 *Insert Image:* `confusion_matrix_tuned.png`  
+![Confusion Matrix (Tuned Model)](Images/confusion_matrix_tuned.png)  
 
 Key points:
 - Strongest performance on **Stage 3**  
