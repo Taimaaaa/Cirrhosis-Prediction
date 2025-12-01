@@ -182,12 +182,11 @@ This is expected in small, imbalanced medical datasets.
 ## 10. Potential Improvements
 To enhance model robustness:
 
-1. **Class weighting** or **Focal Loss**  
+1. **Class weighting**  
 2. Deeper network architectures  
 3. Hyperparameter tuning of learning rate & batch size  
-4. Adding dropout/Bayesian layers  
-5. Stratified k-fold cross-validation  
-6. External medical datasets  
-7. Incorporating domain knowledge or clinical rules  
+4. Adding dropout layers  
+5. External medical datasets  
+6. Incorporating domain knowledge or clinical rules  
 ---
 
